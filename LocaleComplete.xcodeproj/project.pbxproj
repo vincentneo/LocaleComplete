@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		BFED69A323CB59510050AE42 /* LocaleComplete.h in Headers */ = {isa = PBXBuildFile; fileRef = BFED69A123CB59510050AE42 /* LocaleComplete.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFED69AC23CB59600050AE42 /* LocaleID.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69A923CB59600050AE42 /* LocaleID.swift */; };
+		BFED69AD23CB59600050AE42 /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69AA23CB59600050AE42 /* LocaleKeys.swift */; };
+		BFED69AE23CB59600050AE42 /* LocaleComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69AB23CB59600050AE42 /* LocaleComplete.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BFED699E23CB59510050AE42 /* LocaleComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocaleComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFED69A123CB59510050AE42 /* LocaleComplete.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocaleComplete.h; sourceTree = "<group>"; };
 		BFED69A223CB59510050AE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFED69A923CB59600050AE42 /* LocaleID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocaleID.swift; sourceTree = "<group>"; };
+		BFED69AA23CB59600050AE42 /* LocaleKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocaleKeys.swift; sourceTree = "<group>"; };
+		BFED69AB23CB59600050AE42 /* LocaleComplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocaleComplete.swift; sourceTree = "<group>"; };
+		BFED69AF23CB5AA30050AE42 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +37,7 @@
 		BFED699423CB59510050AE42 = {
 			isa = PBXGroup;
 			children = (
+				BFED69AF23CB5AA30050AE42 /* Package.swift */,
 				BFED69A023CB59510050AE42 /* LocaleComplete */,
 				BFED699F23CB59510050AE42 /* Products */,
 			);
@@ -46,6 +54,9 @@
 		BFED69A023CB59510050AE42 /* LocaleComplete */ = {
 			isa = PBXGroup;
 			children = (
+				BFED69AB23CB59600050AE42 /* LocaleComplete.swift */,
+				BFED69A923CB59600050AE42 /* LocaleID.swift */,
+				BFED69AA23CB59600050AE42 /* LocaleKeys.swift */,
 				BFED69A123CB59510050AE42 /* LocaleComplete.h */,
 				BFED69A223CB59510050AE42 /* Info.plist */,
 			);
@@ -95,6 +106,7 @@
 				TargetAttributes = {
 					BFED699D23CB59510050AE42 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -131,6 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFED69AC23CB59600050AE42 /* LocaleID.swift in Sources */,
+				BFED69AD23CB59600050AE42 /* LocaleKeys.swift in Sources */,
+				BFED69AE23CB59600050AE42 /* LocaleComplete.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +275,7 @@
 		BFED69A723CB59510050AE42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3X69W4AQD6;
@@ -268,6 +284,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LocaleComplete/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -276,6 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = neo.vincent.LocaleComplete;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +302,7 @@
 		BFED69A823CB59510050AE42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3X69W4AQD6;
@@ -292,6 +311,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LocaleComplete/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
