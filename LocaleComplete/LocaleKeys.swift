@@ -47,66 +47,87 @@ public enum LocaleKeys: String {
     case assamese               = "as"
     case assameseIndia          = "as_IN"
     
-    case asu
-    case asuTanzania
+    // MARK:- Asu
+    case asu                    = "asa"
+    case asuTanzania            = "asa_TZ"
     
-    case azerbaijani
-    case azerbaijaniCyrillic
-    case azerbaijaniCyrillicAzerbaijan
-    case azerbaijaniLatin
-    case azerbaijaniLatinAzerbaijan
+    // MARK:- Azerbaijani
+    case azerbaijani                    = "az"
+    case azerbaijaniCyrillic            = "az_Cyrl"
+    case azerbaijaniCyrillicAzerbaijan  = "az_Cyrl_AZ"
+    case azerbaijaniLatin               = "az_Latn"
+    case azerbaijaniLatinAzerbaijan     = "az_Latn_AZ"
     
-    case belarusian
-    case belarusianBelarus
+    // MARK:- Belarusian
+    case belarusian             = "be"
+    case belarusianBelarus      = "be_BY"
     
-    case bemba
-    case bembaZambia
+    // MARK:- Bemba
+    case bemba                  = "bem"
+    case bembaZambia            = "bem_ZM"
     
-    case bena
-    case benaTanzania
+    // MARK:- Bena
+    case bena                   = "bez"
+    case benaTanzania           = "bez_TZ"
     
-    case bulgarian
-    case bulgarianBulgaria
+    // MARK:- Bulgarian
+    case bulgarian              = "bg"
+    case bulgarianBulgaria      = "bg_BG"
 
-    case bambara
-    case bambaraMali
+    // MARK:- Bambara
+    case bambara                = "bm"
+    case bambaraMali            = "bm_ML"
     
-    case bengali
-    case bengaliBangladesh
-    case bengaliIndia
+    // MARK:- Bengali
+    case bengali                = "bn"
+    case bengaliBangladesh      = "bn_BD"
+    case bengaliIndia           = "bn_IN"
     
-    case tibetan
-    case tibetanChina
-    case tibetanIndia
+    // MARK:- Tibetan
+    case tibetan                = "bo"
+    case tibetanChina           = "bo_CN"
+    case tibetanIndia           = "bo_IN"
 
-    case bosnian
-    case bosniaAndHerzegovina
+    // MARK:- Bosnian
+    case bosnian                = "bs"
+    case bosniaAndHerzegovina   = "bs_BA"
     
-    case catalan
-    case catalanSpain
+    // MARK:- Catalan
+    case catalan                = "ca"
+    case catalanSpain           = "ca_ES"
     
-    case chiga
-    case chigaUganda
+    // MARK:- Chinga
+    case chiga                  = "cgg"
+    case chigaUganda            = "cgg_UG"
     
-    case cherokee
-    case cherokeeUS
+    // MARK:- Cherokee
+    case cherokee               = "chr"
+    case cherokeeUS             = "chr_US"
     
-    case czech
-    case czechRepublic
+    // MARK:- Czech
+    case czech                  = "cs"
+    case czechRepublic          = "cs_CZ"
     
-    case welsh
-    case welshUK
+    // MARK:- Welsh
+    case welsh                  = "cy"
+    case welshUK                = "cy_GB"
     
-    case taita
-    case taitaKenya
+    // MARK:- Danish
+    case danish                 = "da"
+    case danishDenmark          = "da_DK"
     
-    case german
-    case germanAustria
-    case germanBelgium
-    case germanSwitzerland
-    case germanGermany
-    case germanLichtenstein
-    case germanLuxembourg
+    // MARK:- Taita
+    case taita                  = "dav"
+    case taitaKenya             = "dav_KE"
+    
+    // MARK:- German
+    case german                 = "de"
+    case germanAustria          = "de_AT"
+    case germanBelgium          = "de_BE"
+    case germanSwitzerland      = "de_CH"
+    case germanGermany          = "de_DE"
+    case germanLichtenstein     = "de_LI"
+    case germanLuxembourg       = "de_LU"
     
     case embu
     case embuKenya
@@ -232,4 +253,39 @@ public enum LocaleKeys: String {
     case irish
     case irishIreland
 
+    case galician
+    case galicianSpain
+    
+    case swissGerman
+    case swissGermanSwitzerland
+    
+    case gujarati
+    case gujaratiIndia
+    
+    case gusii
+    case gusiiKenya
+    
+    case manx
+    case manxUK
+    
+    case hausa
+    case hausaLatin
+    case hausaLatinGhana
+    case hausaLatinNiger
+    case hausaLatinNigeria
+    
+    case hawaiian
+    case hawaiianUS
+    
+    case hebrew
+    case hebrewIsrael
+    
+    case hindi
+    case hindiIndia
+    
+    case croatian
+    case croatianCroatia
+    
+    case hungarian
+    case hungarianHungary
 }
