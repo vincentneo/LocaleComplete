@@ -129,17 +129,21 @@ public enum LocaleKeys: String {
     case germanLichtenstein     = "de_LI"
     case germanLuxembourg       = "de_LU"
     
+    // MARK:- Embu
     case embu
     case embuKenya
     
+    // MARK:- Ewe
     case ewe
     case eweGhana
     case eweTogo
     
+    // MARK:- Greek
     case greek
     case greekCyprus
     case greekGreece
     
+    // MARK:- English
     case english
     case englishAmericanSamoa
     case englishAustralia
@@ -170,8 +174,11 @@ public enum LocaleKeys: String {
     case englishSouthAfrica
     case englishZimbabwe
     
+    // MARK:- Esperanto
     case esperanto
     
+    
+    // MARK:- Spanish
     case spanish
     case spanishLatinAmerica
     case spanishArgentina
@@ -195,16 +202,20 @@ public enum LocaleKeys: String {
     case spanishUruguay
     case spanishVenezuela
     
+    // MARK:- Estonian
     case estonian
     case estonianEstonia
     
+    // MARK:- Basque
     case basque
     case basqueSpain
     
+    // MARK:- Persian
     case persian
     case persianAfghanistan
     case persianIran
     
+    // MARK:- Fulah
     case fulah
     case fulahSenegal
     
