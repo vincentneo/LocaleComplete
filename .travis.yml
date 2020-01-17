@@ -11,10 +11,10 @@ env:
   - WATCHOS_FRAMEWORK_SCHEME="LocaleComplete watchOS"
   - TVOS_FRAMEWORK_SCHEME="LocaleComplete tvOS"
   matrix:
-  - DESTINATION="OS=13.2,name=iPhone 11"       SCHEME="$IOS_FRAMEWORK_SCHEME" SDK="iphoneos13.2"  
-  - DESTINATION="OS=5.2,name=Apple Watch Series 5 - 44mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME" SDK="watchos6.1" 
+  - DESTINATION="OS=13.2,name=iPhone 11"       SCHEME="$IOS_FRAMEWORK_SCHEME" SDK="iphonesimulator13.2"  
+  - DESTINATION="OS=5.2,name=Apple Watch Series 5 - 44mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME" SDK="watchsimulator6.1" 
   - DESTINATION="arch=x86_64" SCHEME="$MACOS_FRAMEWORK_SCHEME" SDK="macosx10.15"
-  - DESTINATION="OS=13.2,name=Apple TV"       SCHEME="$TVOS_FRAMEWORK_SCHEME" SDK="appletvos13.2"
+  - DESTINATION="OS=13.2,name=Apple TV"       SCHEME="$TVOS_FRAMEWORK_SCHEME" SDK="appletvsimulator13.2"
   
 script:
   - set -o pipefail
