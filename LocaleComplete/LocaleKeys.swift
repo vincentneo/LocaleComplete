@@ -90,7 +90,7 @@ public enum LocaleKeys: String {
 
     // MARK:- Bosnian
     case bosnian                = "bs"
-    case bosniaAndHerzegovina   = "bs_BA"
+    case bosnianBiH             = "bs_BA"
     
     // MARK:- Catalan
     case catalan                = "ca"
@@ -130,18 +130,18 @@ public enum LocaleKeys: String {
     case germanLuxembourg       = "de_LU"
     
     // MARK:- Embu
-    case embu
-    case embuKenya
+    case embu = "ebu"
+    case embuKenya = "ebu_KE"
     
     // MARK:- Ewe
-    case ewe
-    case eweGhana
-    case eweTogo
+    case ewe = "ee"
+    case eweGhana = "ee_GH"
+    case eweTogo = "ee_TG"
     
     // MARK:- Greek
-    case greek
-    case greekCyprus
-    case greekGreece
+    case greek = "el"
+    case greekCyprus = "el_CY"
+    case greekGreece = "el_GB"
     
     // MARK:- English
     case english
@@ -299,4 +299,319 @@ public enum LocaleKeys: String {
     
     case hungarian
     case hungarianHungary
+    
+    case armenian
+    case armenianArmenia
+    
+    case indonesian
+    case indonesianIndonesia
+    
+    case igbo
+    case igboNigeria
+    
+    case sichuanYi
+    case suchuanYiChina
+    
+    case icelandic
+    case icelandicIceland
+    
+    case italian
+    case italianSwitzerland
+    case italianItaly
+    
+    case japanese
+    case japaneseJapan
+    
+    case machame
+    case machameTanzania
+    
+    case georgian
+    case georgianGeorgia
+    
+    case kabyle
+    case kabyleAlgeria
+    
+    case kamba
+    case kambaKenya
+    
+    case makonde
+    case makondeTanzania
+    
+    case kabuverdianu
+    case kabuverdianuCapeVerde
+    
+    case koyraChiini
+    case koyriChiiniMali
+    
+    case kikuyu
+    case kikuyuKenya
+    
+    case kazakh
+    case kazakhCyrillic
+    case kazakhCyrillicKazakhstan
+    
+    case kalaallisut
+    case kalaallisutGreenland
+    
+    case kalenjin
+    case kalenjinKenya
+    
+    case khmer
+    case khmerCambodia
+    
+    case kannada
+    case kannadaIndia
+    
+    case korean
+    case koreanSouthKorea
+    
+    case konkani
+    case konkaniIndia
+    
+    case cornish
+    case cornishUK
+    
+    case langi
+    case langiTanzania
+    
+    case ganda
+    case gandaUganda
+    
+    case lithuanian
+    case lithuanianLithuania
+    
+    case luo
+    case luoKenya
+    
+    case luyia
+    case luyiaKenya
+    
+    case latvian
+    case latvianLatvia
+    
+    case masai
+    case masaiKenya
+    case masaiTanzania
+    
+    case meru
+    case meruKenya
+    
+    case morisyen
+    case morisyenMauritius
+    
+    case malagasy
+    case malagasyMadagascar
+    
+    case macedonian
+    case macedonianMacedonia
+    
+    case malayalam
+    case malayalamIndia
+    
+    case marathi
+    case marathiIndia
+    
+    case malay
+    case malayBrunei
+    case malayMalaysia
+    
+    case maltese
+    case malteseMalta
+    
+    case burmese
+    case burmeseMyanmar
+    
+    case nama
+    case namaNamibia
+    
+    case norwegianBokmål
+    case norwegianBokmålNorway
+    
+    case northNdebele
+    case northNdebeleZimbabwe
+    
+    case nepali
+    case nepaliIndia
+    case nepaliNepal
+    
+    case dutch
+    case dutchBelgium
+    case dutchNetherlands
+    
+    case norwegianNynorsk
+    case norwegianNynorskNorway
+    
+    case nyankole
+    case nyankoleUganda
+    
+    case oromo
+    case oromoEthiopia
+    case oromoKenya
+    
+    case oriya
+    case oriyaIndia
+    
+    case punjabi
+    case punjabiArabic
+    case pubjabiArabicPakistan
+    case punjabiGurmukhi
+    case punjabiGurmujhiIndia
+    
+    case polish
+    case polishPoland
+    
+    case pashto
+    case pashtoAfgahanistan
+    
+    case portuguese
+    case portugueseBrazil
+    case portugueseGuineaBissau
+    case portugueseMozambique
+    case portuguesePortugal
+    
+    case romansh
+    case romanshSwitzerland
+    
+    case romanian
+    case romanianMoldova
+    case romanianRomania
+    
+    case rombo
+    case romboTanzania
+    
+    case russian
+    case russianMoldova
+    case russianRussia
+    
+    case kinyarwanda
+    case kinyarwandaRwanda
+    
+    case rwa
+    case rwaTanzania
+    
+    case samburu
+    case samburuKenya
+    
+    case sena
+    case senaMozambique
+    
+    case koyraboroSenni
+    case koyraboroSenniMali
+    
+    case sango
+    case sangoCAR
+    
+    case tachelhit
+    case tachelhitLatin
+    case tachelhitLatinMorocco
+    case tachelhitTifinagh
+    case tachelhitTifinaghMorocco
+    
+    case sinhala
+    case sinhalaSriLanka
+    
+    case slovak
+    case slovakSlovakia
+    
+    case slovenian
+    case slovenianSlovenia
+    
+    case shona
+    case shonaZimbabwe
+    
+    case somali
+    case somaliDjibouti
+    case somaliEthiopia
+    case somaliKenya
+    case somaliSomalia
+    
+    case albanian
+    case alabanianAlbania
+    
+    case serbian
+    case serbianCyrillic
+    case serbianCyrillicBiH
+    case serbianCyrillicMontenegro
+    case serbianCyrillicSerbia
+    case serbianLatin
+    case serbianLatinBiH
+    case serbianLatinMontenegro
+    case serbianLatinSerbia
+    
+    case swedish
+    case swedishFinland
+    case swedishSweden
+    
+    case swahili
+    case swahiliKenya
+    case swahiliTanzania
+    
+    case tamil
+    case tamilIndia
+    case tamilSriLanka
+    
+    case telugu
+    case teluguIndia
+    
+    case teso
+    case tesoKenya
+    case tesoUganda
+    
+    case thai
+    case thaiThailand
+    
+    case tigrinya
+    case tigrinyaEritrea
+    case tigrinyaEthiopia
+    
+    case tonga
+    case tongaTonga
+    
+    case turkish
+    case turkishTurkey
+    
+    case centralAtlasTamazight
+    case centralAtlasTamazightLatin
+    case centralAtlasTamazightLatinMorrocco
+    
+    case ukrainian
+    case ukrainianUkriane
+    
+    case urdu
+    case urduIndia
+    case urduPakistan
+    
+    case uzbek
+    case uzbekArabic
+    case uzbekArabicAfghanistan
+    case uzbekCyrillic
+    case uzbekCyrillicAfghanistan
+    case uzbekLatin
+    case uzbekLatinAfghanistan
+    
+    case vietnamese
+    case vietnameseVietnam
+    
+    case soga
+    case sogaUganda
+    
+    case yoruba
+    case yorubaNigeria
+    
+    case chinese
+    case chineseSimplified
+    case chineseSimplifiedChina
+    case chineseSimplifiedHKSAR
+    case chineseSimplifiedMacauSAR
+    
+    case chineseTraditional
+    case chineseTraditionalHKSAR
+    case chineseTraditionalMacauSAR
+    case chineseTraditionalTaiwan
+    
+    case zulu
+    case zuluSouthAfrica
+
+    
 }
+
