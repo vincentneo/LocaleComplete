@@ -1,5 +1,6 @@
 # LocaleComplete
 
+[![CI Status](https://travis-ci.com/vincentneo/LocaleComplete.svg?branch=master)](https://travis-ci.com/vincentneo/LocaleComplete)
 [![Swift Version](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org/blog/swift-5-released/)
 [![License](http://img.shields.io/:license-MIT-black.svg)](http://doge.mit-license.org)
 [![Platform](https://img.shields.io/cocoapods/p/LocaleComplete.svg?style=flat)](https://cocoapods.org/pods/LocaleComplete)
