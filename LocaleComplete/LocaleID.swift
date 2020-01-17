@@ -3,7 +3,7 @@
 //  LocaleComplete
 //
 //  Created by Vincent on 12/1/20.
-//  Generated from Locale in iOS 13.
+//  Generated from Locale in iOS 13 on 17/1/20.
 //
 
 import Foundation
