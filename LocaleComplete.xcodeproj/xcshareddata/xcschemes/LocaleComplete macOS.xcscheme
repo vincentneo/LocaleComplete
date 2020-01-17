@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BFED69B623CB5D180050AE42"
-               BuildableName = "LocaleComplete_Mac.framework"
-               BlueprintName = "LocaleComplete-Mac"
+               BlueprintIdentifier = "BF2A7A6323D1E7CA00820C1B"
+               BuildableName = "LocaleComplete.framework"
+               BlueprintName = "LocaleComplete macOS"
                ReferencedContainer = "container:LocaleComplete.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -50,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BFED69B623CB5D180050AE42"
-            BuildableName = "LocaleComplete_Mac.framework"
-            BlueprintName = "LocaleComplete-Mac"
+            BlueprintIdentifier = "BF2A7A6323D1E7CA00820C1B"
+            BuildableName = "LocaleComplete.framework"
+            BlueprintName = "LocaleComplete macOS"
             ReferencedContainer = "container:LocaleComplete.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

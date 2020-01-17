@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LocaleComplete-Mac.xcscheme_^#shared#^_</key>
+		<key>LocaleComplete macOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>LocaleComplete tvOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>LocaleComplete watchOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>LocaleComplete.xcscheme_^#shared#^_</key>
 		<dict>
@@ -17,6 +27,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>BF2A7A6323D1E7CA00820C1B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BFED699D23CB59510050AE42</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>BFED69B623CB5D180050AE42</key>
 		<dict>
 			<key>primary</key>

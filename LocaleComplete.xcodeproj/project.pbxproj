@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		BF2A7A5D23D1E17F00820C1B /* LocaleComplete.podspec in Resources */ = {isa = PBXBuildFile; fileRef = BF2A7A5C23D1E17F00820C1B /* LocaleComplete.podspec */; };
+		BF2A7A6823D1E7CA00820C1B /* LocaleComplete_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2A7A6623D1E7CA00820C1B /* LocaleComplete_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF2A7A7523D1E82800820C1B /* LocaleComplete_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2A7A7323D1E82800820C1B /* LocaleComplete_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF2A7A8323D1E90700820C1B /* LocaleComplete_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2A7A8123D1E90700820C1B /* LocaleComplete_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF2A7A8723D1ECC800820C1B /* LocaleComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69AB23CB59600050AE42 /* LocaleComplete.swift */; };
+		BF2A7A8823D1ECC800820C1B /* LocaleID.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69A923CB59600050AE42 /* LocaleID.swift */; };
+		BF2A7A8923D1ECC800820C1B /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69AA23CB59600050AE42 /* LocaleKeys.swift */; };
+		BF2A7A8A23D1ECC800820C1B /* LocaleComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69AB23CB59600050AE42 /* LocaleComplete.swift */; };
+		BF2A7A8B23D1ECC800820C1B /* LocaleID.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69A923CB59600050AE42 /* LocaleID.swift */; };
+		BF2A7A8C23D1ECC800820C1B /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69AA23CB59600050AE42 /* LocaleKeys.swift */; };
+		BF2A7A8D23D1ECC900820C1B /* LocaleComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69AB23CB59600050AE42 /* LocaleComplete.swift */; };
+		BF2A7A8E23D1ECC900820C1B /* LocaleID.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69A923CB59600050AE42 /* LocaleID.swift */; };
+		BF2A7A8F23D1ECC900820C1B /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69AA23CB59600050AE42 /* LocaleKeys.swift */; };
 		BFED69A323CB59510050AE42 /* LocaleComplete.h in Headers */ = {isa = PBXBuildFile; fileRef = BFED69A123CB59510050AE42 /* LocaleComplete.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFED69AC23CB59600050AE42 /* LocaleID.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69A923CB59600050AE42 /* LocaleID.swift */; };
 		BFED69AD23CB59600050AE42 /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED69AA23CB59600050AE42 /* LocaleKeys.swift */; };
@@ -16,6 +28,15 @@
 
 /* Begin PBXFileReference section */
 		BF2A7A5C23D1E17F00820C1B /* LocaleComplete.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = LocaleComplete.podspec; sourceTree = "<group>"; };
+		BF2A7A6423D1E7CA00820C1B /* LocaleComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocaleComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2A7A6623D1E7CA00820C1B /* LocaleComplete_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocaleComplete_macOS.h; sourceTree = "<group>"; };
+		BF2A7A6723D1E7CA00820C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2A7A7123D1E82800820C1B /* LocaleComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocaleComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2A7A7323D1E82800820C1B /* LocaleComplete_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocaleComplete_watchOS.h; sourceTree = "<group>"; };
+		BF2A7A7423D1E82800820C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2A7A7F23D1E90700820C1B /* LocaleComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocaleComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2A7A8123D1E90700820C1B /* LocaleComplete_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocaleComplete_tvOS.h; sourceTree = "<group>"; };
+		BF2A7A8223D1E90700820C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFED699E23CB59510050AE42 /* LocaleComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocaleComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFED69A123CB59510050AE42 /* LocaleComplete.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocaleComplete.h; sourceTree = "<group>"; };
 		BFED69A223CB59510050AE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -26,6 +47,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BF2A7A6123D1E7CA00820C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A7A6E23D1E82800820C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A7A7C23D1E90700820C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFED699B23CB59510050AE42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -36,12 +78,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF2A7A6523D1E7CA00820C1B /* LocaleComplete macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BF2A7A6623D1E7CA00820C1B /* LocaleComplete_macOS.h */,
+				BF2A7A6723D1E7CA00820C1B /* Info.plist */,
+			);
+			path = "LocaleComplete macOS";
+			sourceTree = "<group>";
+		};
+		BF2A7A7223D1E82800820C1B /* LocaleComplete watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				BF2A7A7323D1E82800820C1B /* LocaleComplete_watchOS.h */,
+				BF2A7A7423D1E82800820C1B /* Info.plist */,
+			);
+			path = "LocaleComplete watchOS";
+			sourceTree = "<group>";
+		};
+		BF2A7A8023D1E90700820C1B /* LocaleComplete tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				BF2A7A8123D1E90700820C1B /* LocaleComplete_tvOS.h */,
+				BF2A7A8223D1E90700820C1B /* Info.plist */,
+			);
+			path = "LocaleComplete tvOS";
+			sourceTree = "<group>";
+		};
 		BFED699423CB59510050AE42 = {
 			isa = PBXGroup;
 			children = (
 				BF2A7A5C23D1E17F00820C1B /* LocaleComplete.podspec */,
 				BFED69AF23CB5AA30050AE42 /* Package.swift */,
 				BFED69A023CB59510050AE42 /* LocaleComplete */,
+				BF2A7A6523D1E7CA00820C1B /* LocaleComplete macOS */,
+				BF2A7A7223D1E82800820C1B /* LocaleComplete watchOS */,
+				BF2A7A8023D1E90700820C1B /* LocaleComplete tvOS */,
 				BFED699F23CB59510050AE42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				BFED699E23CB59510050AE42 /* LocaleComplete.framework */,
+				BF2A7A6423D1E7CA00820C1B /* LocaleComplete.framework */,
+				BF2A7A7123D1E82800820C1B /* LocaleComplete.framework */,
+				BF2A7A7F23D1E90700820C1B /* LocaleComplete.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +144,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		BF2A7A5F23D1E7CA00820C1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2A7A6823D1E7CA00820C1B /* LocaleComplete_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A7A6C23D1E82800820C1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2A7A7523D1E82800820C1B /* LocaleComplete_watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A7A7A23D1E90700820C1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2A7A8323D1E90700820C1B /* LocaleComplete_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFED699923CB59510050AE42 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,9 +179,63 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BFED699D23CB59510050AE42 /* LocaleComplete */ = {
+		BF2A7A6323D1E7CA00820C1B /* LocaleComplete macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFED69A623CB59510050AE42 /* Build configuration list for PBXNativeTarget "LocaleComplete" */;
+			buildConfigurationList = BF2A7A6B23D1E7CA00820C1B /* Build configuration list for PBXNativeTarget "LocaleComplete macOS" */;
+			buildPhases = (
+				BF2A7A5F23D1E7CA00820C1B /* Headers */,
+				BF2A7A6023D1E7CA00820C1B /* Sources */,
+				BF2A7A6123D1E7CA00820C1B /* Frameworks */,
+				BF2A7A6223D1E7CA00820C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LocaleComplete macOS";
+			productName = "LocaleComplete macOS";
+			productReference = BF2A7A6423D1E7CA00820C1B /* LocaleComplete.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF2A7A7023D1E82800820C1B /* LocaleComplete watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2A7A7623D1E82800820C1B /* Build configuration list for PBXNativeTarget "LocaleComplete watchOS" */;
+			buildPhases = (
+				BF2A7A6C23D1E82800820C1B /* Headers */,
+				BF2A7A6D23D1E82800820C1B /* Sources */,
+				BF2A7A6E23D1E82800820C1B /* Frameworks */,
+				BF2A7A6F23D1E82800820C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LocaleComplete watchOS";
+			productName = "LocaleComplete watchOS";
+			productReference = BF2A7A7123D1E82800820C1B /* LocaleComplete.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF2A7A7E23D1E90700820C1B /* LocaleComplete tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2A7A8423D1E90700820C1B /* Build configuration list for PBXNativeTarget "LocaleComplete tvOS" */;
+			buildPhases = (
+				BF2A7A7A23D1E90700820C1B /* Headers */,
+				BF2A7A7B23D1E90700820C1B /* Sources */,
+				BF2A7A7C23D1E90700820C1B /* Frameworks */,
+				BF2A7A7D23D1E90700820C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LocaleComplete tvOS";
+			productName = "LocaleComplete tvOS";
+			productReference = BF2A7A7F23D1E90700820C1B /* LocaleComplete.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFED699D23CB59510050AE42 /* LocaleComplete iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFED69A623CB59510050AE42 /* Build configuration list for PBXNativeTarget "LocaleComplete iOS" */;
 			buildPhases = (
 				BFED699923CB59510050AE42 /* Headers */,
 				BFED699A23CB59510050AE42 /* Sources */,
@@ -93,7 +246,7 @@
 			);
 			dependencies = (
 			);
-			name = LocaleComplete;
+			name = "LocaleComplete iOS";
 			productName = LocaleComplete;
 			productReference = BFED699E23CB59510050AE42 /* LocaleComplete.framework */;
 			productType = "com.apple.product-type.framework";
@@ -107,6 +260,15 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Vincent;
 				TargetAttributes = {
+					BF2A7A6323D1E7CA00820C1B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					BF2A7A7023D1E82800820C1B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					BF2A7A7E23D1E90700820C1B = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					BFED699D23CB59510050AE42 = {
 						CreatedOnToolsVersion = 11.3;
 						LastSwiftMigration = 1130;
@@ -126,12 +288,36 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFED699D23CB59510050AE42 /* LocaleComplete */,
+				BFED699D23CB59510050AE42 /* LocaleComplete iOS */,
+				BF2A7A6323D1E7CA00820C1B /* LocaleComplete macOS */,
+				BF2A7A7023D1E82800820C1B /* LocaleComplete watchOS */,
+				BF2A7A7E23D1E90700820C1B /* LocaleComplete tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BF2A7A6223D1E7CA00820C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A7A6F23D1E82800820C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A7A7D23D1E90700820C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFED699C23CB59510050AE42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -143,6 +329,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BF2A7A6023D1E7CA00820C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2A7A8923D1ECC800820C1B /* LocaleKeys.swift in Sources */,
+				BF2A7A8823D1ECC800820C1B /* LocaleID.swift in Sources */,
+				BF2A7A8723D1ECC800820C1B /* LocaleComplete.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A7A6D23D1E82800820C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2A7A8C23D1ECC800820C1B /* LocaleKeys.swift in Sources */,
+				BF2A7A8B23D1ECC800820C1B /* LocaleID.swift in Sources */,
+				BF2A7A8A23D1ECC800820C1B /* LocaleComplete.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A7A7B23D1E90700820C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2A7A8F23D1ECC900820C1B /* LocaleKeys.swift in Sources */,
+				BF2A7A8E23D1ECC900820C1B /* LocaleID.swift in Sources */,
+				BF2A7A8D23D1ECC900820C1B /* LocaleComplete.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFED699A23CB59510050AE42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -156,6 +372,164 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BF2A7A6923D1E7CA00820C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3X69W4AQD6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "LocaleComplete macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = neo.vincent.LocaleComplete;
+				PRODUCT_NAME = LocaleComplete;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BF2A7A6A23D1E7CA00820C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3X69W4AQD6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "LocaleComplete macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = neo.vincent.LocaleComplete;
+				PRODUCT_NAME = LocaleComplete;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BF2A7A7723D1E82800820C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3X69W4AQD6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "LocaleComplete watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neo.vincent.LocaleComplete;
+				PRODUCT_NAME = LocaleComplete;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		BF2A7A7823D1E82800820C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3X69W4AQD6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "LocaleComplete watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neo.vincent.LocaleComplete;
+				PRODUCT_NAME = LocaleComplete;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		BF2A7A8523D1E90700820C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3X69W4AQD6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "LocaleComplete tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neo.vincent.LocaleComplete;
+				PRODUCT_NAME = LocaleComplete;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		BF2A7A8623D1E90700820C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3X69W4AQD6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "LocaleComplete tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neo.vincent.LocaleComplete;
+				PRODUCT_NAME = LocaleComplete;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 		BFED69A423CB59510050AE42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -295,7 +669,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = neo.vincent.LocaleComplete;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = LocaleComplete;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -322,7 +696,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = neo.vincent.LocaleComplete;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = LocaleComplete;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,6 +706,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BF2A7A6B23D1E7CA00820C1B /* Build configuration list for PBXNativeTarget "LocaleComplete macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2A7A6923D1E7CA00820C1B /* Debug */,
+				BF2A7A6A23D1E7CA00820C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2A7A7623D1E82800820C1B /* Build configuration list for PBXNativeTarget "LocaleComplete watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2A7A7723D1E82800820C1B /* Debug */,
+				BF2A7A7823D1E82800820C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2A7A8423D1E90700820C1B /* Build configuration list for PBXNativeTarget "LocaleComplete tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2A7A8523D1E90700820C1B /* Debug */,
+				BF2A7A8623D1E90700820C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BFED699823CB59510050AE42 /* Build configuration list for PBXProject "LocaleComplete" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -341,7 +742,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFED69A623CB59510050AE42 /* Build configuration list for PBXNativeTarget "LocaleComplete" */ = {
+		BFED69A623CB59510050AE42 /* Build configuration list for PBXNativeTarget "LocaleComplete iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFED69A723CB59510050AE42 /* Debug */,
