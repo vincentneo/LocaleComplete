@@ -11,8 +11,8 @@ env:
   - WATCHOS_FRAMEWORK_SCHEME="LocaleComplete watchOS"
   - TVOS_FRAMEWORK_SCHEME="LocaleComplete tvOS"
   matrix:
-  - DESTINATION="OS=13.0, name=iPhone 11 Pro Max"       SCHEME="$IOS_FRAMEWORK_SCHEME" SDK="iphonesimulator13.2"  
-  - DESTINATION="OS=6.1,name=Apple Watch Series 5 - 44mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME" SDK="watchsimulator6.1" 
+  - DESTINATION="OS=13.0,name=iPhone 11 Pro Max"       SCHEME="$IOS_FRAMEWORK_SCHEME" SDK="iphonesimulator13.2"  
+  - DESTINATION="OS=6.0,name=Apple Watch Series 5 - 44mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME" SDK="watchsimulator6.1" 
   - DESTINATION="arch=x86_64" SCHEME="$MACOS_FRAMEWORK_SCHEME" SDK="macosx10.15"
   - DESTINATION="OS=13.0,name=Apple TV"       SCHEME="$TVOS_FRAMEWORK_SCHEME" SDK="appletvsimulator13.2"
   
