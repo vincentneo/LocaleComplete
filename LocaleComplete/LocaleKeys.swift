@@ -928,8 +928,8 @@ public enum LocaleKeys: String {
     /// English (United States)
     case englishUnitedStates = "en_US"
 
-    /// English (United States, Computer)
-    case englishUnitedStatesComputer = "en_US_POSIX"
+    /// English (United States, Computer, POSIX)
+    case englishUnitedStatesPOSIX = "en_US_POSIX"
 
     /// English (St. Vincent & Grenadines)
     case englishStVincentAndGrenadines = "en_VC"
