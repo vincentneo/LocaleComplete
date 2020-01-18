@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LocaleComplete'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Auto complete Locale.'
   s.description      = <<-DESC
                         Extensions for Locale & NSLocale, easy initializing, and use of default locales.
